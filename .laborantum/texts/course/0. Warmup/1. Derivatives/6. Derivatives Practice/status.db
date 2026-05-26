@@ -1,5 +1,5 @@
 {
-    "correct": 0.8125,
+    "correct": 0.9791666666666666,
     "testStatus": [
         {
             "name": "root -> 1D -> d1",
@@ -8,8 +8,8 @@
         },
         {
             "name": "root -> 1D -> dd1",
-            "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 19.345393000636076"
+            "ok": true,
+            "status": "OK"
         },
         {
             "name": "root -> 1D -> d1_approx",
@@ -28,8 +28,8 @@
         },
         {
             "name": "root -> 1D -> dd2",
-            "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 2.9301844551579124"
+            "ok": true,
+            "status": "OK"
         },
         {
             "name": "root -> 1D -> d2_approx",
@@ -48,8 +48,8 @@
         },
         {
             "name": "root -> 1D -> dd3",
-            "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 10120.261619975714"
+            "ok": true,
+            "status": "OK"
         },
         {
             "name": "root -> 1D -> d3_approx",
@@ -68,8 +68,8 @@
         },
         {
             "name": "root -> 1D -> dd4",
-            "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 253771.9868484218"
+            "ok": true,
+            "status": "OK"
         },
         {
             "name": "root -> 1D -> d4_approx",
@@ -88,8 +88,8 @@
         },
         {
             "name": "root -> 1D -> dd5",
-            "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 0.3772574519817133"
+            "ok": true,
+            "status": "OK"
         },
         {
             "name": "root -> 1D -> d5_approx",
@@ -103,13 +103,13 @@
         },
         {
             "name": "root -> 1D -> d6",
-            "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 7749105.271219796"
+            "ok": true,
+            "status": "OK"
         },
         {
             "name": "root -> 1D -> dd6",
             "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 584933360011.5664"
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 7749236.261545726"
         },
         {
             "name": "root -> 1D -> d6_approx",
@@ -223,13 +223,13 @@
         },
         {
             "name": "root -> 2D -> grad_6 -> 0",
-            "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 2.045711849107276"
+            "ok": true,
+            "status": "OK"
         },
         {
             "name": "root -> 2D -> grad_6 -> 1",
-            "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 2.045711849107276"
+            "ok": true,
+            "status": "OK"
         },
         {
             "name": "root -> 2D -> grad_6_approx -> 0",
