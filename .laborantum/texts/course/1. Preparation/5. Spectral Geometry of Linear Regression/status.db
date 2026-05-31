@@ -1,0 +1,4 @@
+{
+    "correct": 0,
+    "error": "Traceback (most recent call last):\n  File \"/workspaces/neural-networks-fundamentals/.laborantum/utils/checker.py\", line 259, in <module>\n    check_json(args.task)\n  File \"/workspaces/neural-networks-fundamentals/.laborantum/utils/checker.py\", line 221, in check_json\n    teacher_state = load(str(teacher_path))\n                    ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/json_tricks/nonp.py\", line 284, in load\n    with open(fp, 'rb') as fh:\n         ^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '.laborantum/texts/course/1. Preparation/5. Spectral Geometry of Linear Regression/.solution.json'\n"
+}
