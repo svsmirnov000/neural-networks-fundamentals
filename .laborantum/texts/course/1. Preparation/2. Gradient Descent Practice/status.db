@@ -1,5 +1,5 @@
 {
-    "correct": 0.9997501873594804,
+    "correct": 1,
     "testStatus": [
         {
             "name": "root -> x_grad",
@@ -13,8 +13,8 @@
         },
         {
             "name": "root -> X_grad",
-            "ok": false,
-            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nreceived average mismatch: 117.0"
+            "ok": true,
+            "status": "OK"
         },
         {
             "name": "root -> var_history_1 -> 0",
