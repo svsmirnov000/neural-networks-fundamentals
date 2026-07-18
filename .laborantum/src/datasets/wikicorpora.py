@@ -15,6 +15,27 @@ class SkipGramDataset:
         self.word_counts = {'word': 1}
         self.pairs = [(0, 0)]
 
+        self.tokens = self._tokenize(corpus)
+        counter = Counter(self.tokens)
+
+        self.vocab = sorted(
+            [word for word, count in counter.items() if count >= self.min_count],
+            key=lambda x: (-counter[x], x)  # по убыванию частоты, затем по алфавиту
+        )
+
+        self.word_to_index = {word: idx for idx, word in enumerate(self.vocab)}
+        self.index_to_word = {idx: word for idx, word in enumerate(self.vocab)}
+
+        self.word_counts = {word: counter[word] for word in self.vocab}
+
+        indexed_tokens = [
+            self.word_to_index[token] 
+            for token in self.tokens 
+            if token in self.word_to_index
+        ]
+
+        self.pairs = self._make_pairs(indexed_tokens, self.window_size)
+
         ## YOUR CODE HERE
 
     def _tokenize(self, corpus):
