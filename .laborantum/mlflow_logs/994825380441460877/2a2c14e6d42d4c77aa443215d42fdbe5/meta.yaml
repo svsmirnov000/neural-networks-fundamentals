@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/neural-networks-fundamentals/.laborantum/mlflow_logs/994825380441460877/2a2c14e6d42d4c77aa443215d42fdbe5/artifacts
+end_time: 1784401001919
+entry_point_name: ''
+experiment_id: '994825380441460877'
+lifecycle_stage: active
+run_id: 2a2c14e6d42d4c77aa443215d42fdbe5
+run_name: word2vec_hsoftmax_training
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1784401000944
+status: 3
+tags: []
+user_id: root

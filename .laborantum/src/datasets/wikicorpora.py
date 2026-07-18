@@ -37,6 +37,22 @@ class SkipGramDataset:
         self.pairs = self._make_pairs(indexed_tokens, self.window_size)
 
         ## YOUR CODE HERE
+        self.pairs = []
+        for i, center_token in enumerate(self.tokens):
+            if center_token not in self.word_to_index:
+                continue
+            center_idx = self.word_to_index[center_token]
+
+            left = max(0, i - self.window_size)
+            right = min(len(self.tokens), i + self.window_size + 1)
+
+            for j in range(left, right):
+                if i == j:
+                    continue
+                context_token = self.tokens[j]
+                if context_token in self.word_to_index:
+                    context_idx = self.word_to_index[context_token]
+                    self.pairs.append((center_idx, context_idx))
 
     def _tokenize(self, corpus):
         text = ' '.join(corpus) if isinstance(corpus, (list, tuple)) else str(corpus)
