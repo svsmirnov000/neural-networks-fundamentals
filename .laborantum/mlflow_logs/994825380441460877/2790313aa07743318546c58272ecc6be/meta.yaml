@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/neural-networks-fundamentals/.laborantum/mlflow_logs/994825380441460877/2790313aa07743318546c58272ecc6be/artifacts
+end_time: 1784394392423
+entry_point_name: ''
+experiment_id: '994825380441460877'
+lifecycle_stage: active
+run_id: 2790313aa07743318546c58272ecc6be
+run_name: two_layer_fcnn_test_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1784394387319
+status: 3
+tags: []
+user_id: root
